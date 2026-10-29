@@ -527,7 +527,7 @@
         if (chunks.length > 0) {
             let listHtml = chunks.map((c, i) => `
                 <div class="chunk-item">
-                    <b>Fragment ${i+1}. ${escapeHtml(c.country)} (${escapeHtml(c.year)}) | ${escapeHtml(c.section)} > ${escapeHtml(c.subsection)}</b>
+                    <b>Fragment ${i+1}</b>
                     <p style="margin: 6px 0 0 0; color: #444;">${escapeHtml(c.text)}</p>
                 </div>
             `).join('');
